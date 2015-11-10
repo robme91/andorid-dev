@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Two Activities Exercise</string>
+    <string name="Main_btn_caption">Edit Characteristics</string>
+    <string name="insert_screen_btn_save_caption">Save Data</string>
+</resources>
