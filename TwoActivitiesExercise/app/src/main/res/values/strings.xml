@@ -2,4 +2,15 @@
     <string name="app_name">Two Activities Exercise</string>
     <string name="Main_btn_caption">Edit Characteristics</string>
     <string name="insert_screen_btn_save_caption">Save Data</string>
+    <string name="main_textView_author">Robin Mehlitz, s790642</string>
+    <string name="main_textView_name">Hier könnte Ihr Name stehen</string>
+    <string name="main_textView_alter">Hier könnte Ihr Alter stehen</string>
+    <string name="main_textView_gender">Hier könnte Ihr Geschlecht stehen</string>
+    <string name="insertScreen_edit_name">Hier Namen eingeben</string>
+    <string name="insertScreen_edit_age">Hier Alter eingeben</string>
+    <string name="insertScreen_edit_gender">Hier Geschlecht eingeben</string>
+    <string name="insertScreen_resultData_bundle">personData</string>
+    <string name="insertScreen_bundle_name">name</string>
+    <string name="insertScreen_bundle_age">age</string>
+    <string name="insertScreen_bundle_gender">gender</string>
 </resources>
