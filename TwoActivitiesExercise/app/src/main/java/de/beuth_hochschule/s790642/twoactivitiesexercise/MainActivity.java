@@ -32,7 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onBtnClick(View view){
         //Aufruf der anderen Activity
-        startActivityForResult(new Intent(this, InsertScreen.class), activity_insert_screen);
+        Intent intent = new Intent(this, InsertScreen.class);
+        intent.putExtra(getString(R.string.main_intent_extra_nameView), nameView.getText().toString());
+        intent.putExtra(getString(R.string.main_intent_extra_ageView), ageView.getText().toString());
+        intent.putExtra(getString(R.string.main_intent_extra_genderView), genderView.getText().toString());
+        startActivityForResult(intent, activity_insert_screen);
     }
 
     @Override

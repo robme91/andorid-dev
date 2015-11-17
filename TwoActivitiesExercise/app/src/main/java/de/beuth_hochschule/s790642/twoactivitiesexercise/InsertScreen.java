@@ -20,9 +20,11 @@ public class InsertScreen extends AppCompatActivity {
         editAge = (EditText) findViewById(R.id.insert_screen_edit_age);
         editGender = (EditText) findViewById(R.id.insert_screen_edit_gender);
 
-        editName.setText(R.string.insertScreen_edit_name);
-        editAge.setText(R.string.insertScreen_edit_age);
-        editGender.setText(R.string.insertScreen_edit_gender);
+        Intent intent = getIntent();
+
+        editName.setText(intent.getStringExtra(getString(R.string.main_intent_extra_nameView)));
+        editAge.setText(intent.getStringExtra(getString(R.string.main_intent_extra_ageView)));
+        editGender.setText(intent.getStringExtra(getString(R.string.main_intent_extra_genderView)));
 
         editName.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
