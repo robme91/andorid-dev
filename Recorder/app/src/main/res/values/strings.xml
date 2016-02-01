@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Recorder</string>
+    <string name="main_btn_record_text">Record</string>
+    <string name="main_btn_stopRecord_text">Stop</string>
+    <string name="main_editText_fileName">Enter filename here</string>
+    <string name="title_activity_player_acticity">Player</string>
+    <string name="intent_recordListener_filePath">currentRecordedFilePath</string>
+    <string name="main_btn_openPlayer">Open Player</string>
+    <string name="main_btn_pauseRecord_text">Pause</string>
+    <string name="player_textView_listLabel_text">Records:</string>
+</resources>

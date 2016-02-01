@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OpenForeignApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_textArea_name_text">Robin Mehlitz, 790642</string>
+    <string name="main_textView_url_initText">Hier bitte URL eingeben</string>
+    <string name="main_radioBtn_url_caption">Öffne URL</string>
+    <string name="errorMessage_badUrl">"Ungültiger URI: "</string>
+    <string name="main_radioBtn_cam_caption">Öffne Camera</string>
+    <string name="main_radioBtn_note_caption">Neune Notiz</string>
+    <string name="errorMessage_noChoice">Bitte Auswahl treffen!</string>
+</resources>

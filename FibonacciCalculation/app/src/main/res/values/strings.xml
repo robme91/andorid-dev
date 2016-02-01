@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FibonacciCalculation</string>
+    <string name="main_calcBtn_text">Start Calculation</string>
+</resources>
